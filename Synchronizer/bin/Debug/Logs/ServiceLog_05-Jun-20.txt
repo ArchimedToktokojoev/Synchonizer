@@ -1,0 +1,225 @@
+Friday, June 5, 2020-2:56:43 PM =>  Synchronizer started
+Friday, June 5, 2020-2:56:43 PM =>  Task for E:\TestFolter1 created
+Friday, June 5, 2020-2:56:43 PM =>  Task for E:\TestFolter2 created
+Friday, June 5, 2020-2:56:48 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:56:48 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:56:48 PM =>  No changes
+Friday, June 5, 2020-2:56:48 PM =>  No changes
+Friday, June 5, 2020-2:56:53 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:56:53 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:56:53 PM =>  No changes
+Friday, June 5, 2020-2:56:53 PM =>  No changes
+Friday, June 5, 2020-2:56:58 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:56:58 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:56:58 PM =>  No changes
+Friday, June 5, 2020-2:56:58 PM =>  No changes
+Friday, June 5, 2020-2:57:03 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:57:03 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:57:03 PM =>  No changes
+Friday, June 5, 2020-2:57:03 PM =>  No changes
+Friday, June 5, 2020-2:57:08 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:57:08 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:57:08 PM =>  No changes
+Friday, June 5, 2020-2:57:08 PM =>  No changes
+Friday, June 5, 2020-2:57:13 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:57:13 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:57:13 PM =>  No changes
+Friday, June 5, 2020-2:57:13 PM =>  No changes
+Friday, June 5, 2020-2:57:18 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:57:18 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:57:18 PM =>  No changes
+Friday, June 5, 2020-2:57:18 PM =>  No changes
+Friday, June 5, 2020-2:57:23 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:57:23 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:57:23 PM =>  No changes
+Friday, June 5, 2020-2:57:23 PM =>  No changes
+Friday, June 5, 2020-2:57:28 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:57:28 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:57:28 PM =>  No changes
+Friday, June 5, 2020-2:57:28 PM =>  No changes
+Friday, June 5, 2020-2:57:33 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:57:33 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:57:33 PM =>  No changes
+Friday, June 5, 2020-2:57:33 PM =>  No changes
+Friday, June 5, 2020-2:57:38 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:57:38 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:57:38 PM =>  No changes
+Friday, June 5, 2020-2:57:38 PM =>  No changes
+Friday, June 5, 2020-2:57:43 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:57:43 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:57:43 PM =>  No changes
+Friday, June 5, 2020-2:57:43 PM =>  No changes
+Friday, June 5, 2020-2:57:48 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:57:48 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:57:48 PM =>  No changes
+Friday, June 5, 2020-2:57:48 PM =>  No changes
+Friday, June 5, 2020-2:57:53 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:57:53 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:57:53 PM =>  No changes
+Friday, June 5, 2020-2:57:53 PM =>  No changes
+Friday, June 5, 2020-2:57:58 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:57:58 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:57:58 PM =>  No changes
+Friday, June 5, 2020-2:57:58 PM =>  No changes
+Friday, June 5, 2020-2:58:03 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:58:03 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:58:03 PM =>  No changes
+Friday, June 5, 2020-2:58:03 PM =>  No changes
+Friday, June 5, 2020-2:58:08 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:58:08 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:58:08 PM =>  No changes
+Friday, June 5, 2020-2:58:08 PM =>  No changes
+Friday, June 5, 2020-2:58:13 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:58:13 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:58:13 PM =>  No changes
+Friday, June 5, 2020-2:58:13 PM =>  No changes
+Friday, June 5, 2020-2:58:18 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:58:18 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:58:18 PM =>  No changes
+Friday, June 5, 2020-2:58:18 PM =>  Copy. E:\TestFolter1\ДОГОВОР НА ПЕРЕВОД ЛИМС НА ВЕБ.doc -> \\192.168.21.2\BackUps\ДОГОВОР НА ПЕРЕВОД ЛИМС НА ВЕБ.doc
+Friday, June 5, 2020-2:58:18 PM =>  Copy. E:\TestFolter1\Приложение1.docx -> \\192.168.21.2\BackUps\Приложение1.docx
+Friday, June 5, 2020-2:58:18 PM =>  Copy. E:\TestFolter1\Приложение2.docx -> \\192.168.21.2\BackUps\Приложение2.docx
+Friday, June 5, 2020-2:58:23 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:58:23 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:58:23 PM =>  No changes
+Friday, June 5, 2020-2:58:23 PM =>  No changes
+Friday, June 5, 2020-2:58:28 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:58:28 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:58:28 PM =>  No changes
+Friday, June 5, 2020-2:58:28 PM =>  No changes
+Friday, June 5, 2020-2:58:33 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:58:33 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:58:33 PM =>  No changes
+Friday, June 5, 2020-2:58:33 PM =>  No changes
+Friday, June 5, 2020-2:58:38 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:58:38 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:58:38 PM =>  No changes
+Friday, June 5, 2020-2:58:38 PM =>  Delete. \\192.168.21.2\BackUps\ДОГОВОР НА ПЕРЕВОД ЛИМС НА ВЕБ.doc
+Friday, June 5, 2020-2:58:43 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:58:43 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:58:43 PM =>  No changes
+Friday, June 5, 2020-2:58:43 PM =>  Delete. \\192.168.21.2\BackUps\Приложение1.docx
+Friday, June 5, 2020-2:58:48 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:58:48 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:58:48 PM =>  No changes
+Friday, June 5, 2020-2:58:48 PM =>  Delete. \\192.168.21.2\BackUps\Приложение2.docx
+Friday, June 5, 2020-2:58:53 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:58:53 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:58:53 PM =>  No changes
+Friday, June 5, 2020-2:58:53 PM =>  No changes
+Friday, June 5, 2020-2:58:58 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:58:58 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:58:58 PM =>  No changes
+Friday, June 5, 2020-2:58:58 PM =>  No changes
+Friday, June 5, 2020-2:59:03 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:59:03 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:59:03 PM =>  No changes
+Friday, June 5, 2020-2:59:03 PM =>  Copy. E:\TestFolter1\Documents - Shortcut.lnk -> \\192.168.21.2\BackUps\Documents - Shortcut.lnk
+Friday, June 5, 2020-2:59:08 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:59:08 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:59:08 PM =>  No changes
+Friday, June 5, 2020-2:59:08 PM =>  No changes
+Friday, June 5, 2020-2:59:13 PM =>  Synchronisation. Folder=E:\TestFolter1
+Friday, June 5, 2020-2:59:13 PM =>  Synchronisation. Folder=E:\TestFolter2
+Friday, June 5, 2020-2:59:13 PM =>  No changes
+Friday, June 5, 2020-2:59:13 PM =>  No changes
+Friday, June 5, 2020-2:59:18 PM =>  Synchronizer stoped
+Friday, June 5, 2020-3:05:17 PM =>  Synchronizer started
+Friday, June 5, 2020-3:05:17 PM =>  Task for E:\TestFolter1 created
+Friday, June 5, 2020-3:05:17 PM =>  Task for E:\TestFolter2 created
+Friday, June 5, 2020-3:06:52 PM =>  Copy. E:\TestFolter2\B291359.txt -> \\192.168.21.2\LimsData\B291359.txt
+Friday, June 5, 2020-3:06:54 PM =>  Copy. E:\TestFolter2\xrf-software_superq6_user-documents_superq-6.3-reference-manualce-manuals_rfm_superq63-pw2450_en.pdf -> \\192.168.21.2\LimsData\xrf-software_superq6_user-documents_superq-6.3-reference-manualce-manuals_rfm_superq63-pw2450_en.pdf
+Friday, June 5, 2020-3:07:07 PM =>  Delete. \\192.168.21.2\LimsData\B291359.txt
+Friday, June 5, 2020-3:08:08 PM =>  Copy. E:\TestFolter2\20B133.csv -> \\192.168.21.2\LimsData\20B133.csv
+Friday, June 5, 2020-3:08:08 PM =>  Copy. E:\TestFolter2\shop_price.xls -> \\192.168.21.2\LimsData\shop_price.xls
+Friday, June 5, 2020-3:08:10 PM =>  Copy. E:\TestFolter2\WhatsApp Video 2020-04-06 at 20.01.54.mp4 -> \\192.168.21.2\LimsData\WhatsApp Video 2020-04-06 at 20.01.54.mp4
+Friday, June 5, 2020-3:08:10 PM =>  Copy. E:\TestFolter2\WhatsApp.html -> \\192.168.21.2\LimsData\WhatsApp.html
+Friday, June 5, 2020-3:08:10 PM =>  Copy. E:\TestFolter2\ЭТАПЫ открытия объектов.docx.docx.pdf.pdf -> \\192.168.21.2\LimsData\ЭТАПЫ открытия объектов.docx.docx.pdf.pdf
+Friday, June 5, 2020-3:08:13 PM =>  Copy. E:\TestFolter2\shop_price.xls -> \\192.168.21.2\LimsData\shop_price.xls
+Friday, June 5, 2020-3:08:14 PM =>  Copy. E:\TestFolter2\WhatsApp_files\app.e523a591420798a2d899.js.download -> \\192.168.21.2\LimsData\WhatsApp_files\app.e523a591420798a2d899.js.download
+Friday, June 5, 2020-3:08:15 PM =>  Copy. E:\TestFolter2\WhatsApp_files\app2.a59ed697f92a7f70d888.js.download -> \\192.168.21.2\LimsData\WhatsApp_files\app2.a59ed697f92a7f70d888.js.download
+Friday, June 5, 2020-3:08:15 PM =>  Copy. E:\TestFolter2\WhatsApp_files\cssm_app.a116332e0d5be427a1b26c8b7f797e9c.css -> \\192.168.21.2\LimsData\WhatsApp_files\cssm_app.a116332e0d5be427a1b26c8b7f797e9c.css
+Friday, June 5, 2020-3:08:15 PM =>  Copy. E:\TestFolter2\WhatsApp_files\cssm_qr.aaaeb53b634fe8e38785616dc5cb39ea.css -> \\192.168.21.2\LimsData\WhatsApp_files\cssm_qr.aaaeb53b634fe8e38785616dc5cb39ea.css
+Friday, June 5, 2020-3:08:15 PM =>  Copy. E:\TestFolter2\WhatsApp_files\en.8e388be0378c483dfc1f.js.download -> \\192.168.21.2\LimsData\WhatsApp_files\en.8e388be0378c483dfc1f.js.download
+Friday, June 5, 2020-3:08:15 PM =>  Copy. E:\TestFolter2\WhatsApp_files\lazy_loaded_high_priority_components.7baa2667a5e2b0a7dedc.js.download -> \\192.168.21.2\LimsData\WhatsApp_files\lazy_loaded_high_priority_components.7baa2667a5e2b0a7dedc.js.download
+Friday, June 5, 2020-3:08:16 PM =>  Copy. E:\TestFolter2\WhatsApp_files\lazy_loaded_high_priority_components_lazy_loaded_low_priority_components.e4d0ef61103c8dcbaa46.js.download -> \\192.168.21.2\LimsData\WhatsApp_files\lazy_loaded_high_priority_components_lazy_loaded_low_priority_components.e4d0ef61103c8dcbaa46.js.download
+Friday, June 5, 2020-3:08:16 PM =>  Copy. E:\TestFolter2\WhatsApp_files\lazy_loaded_low_priority_components.5bf9d655f354566e78ad.js.download -> \\192.168.21.2\LimsData\WhatsApp_files\lazy_loaded_low_priority_components.5bf9d655f354566e78ad.js.download
+Friday, June 5, 2020-3:08:16 PM =>  Copy. E:\TestFolter2\WhatsApp_files\pp -> \\192.168.21.2\LimsData\WhatsApp_files\pp
+Friday, June 5, 2020-3:08:16 PM =>  Copy. E:\TestFolter2\WhatsApp_files\pp(1) -> \\192.168.21.2\LimsData\WhatsApp_files\pp(1)
+Friday, June 5, 2020-3:08:16 PM =>  Copy. E:\TestFolter2\WhatsApp_files\pp(10) -> \\192.168.21.2\LimsData\WhatsApp_files\pp(10)
+Friday, June 5, 2020-3:08:16 PM =>  Copy. E:\TestFolter2\WhatsApp_files\pp(11) -> \\192.168.21.2\LimsData\WhatsApp_files\pp(11)
+Friday, June 5, 2020-3:08:16 PM =>  Copy. E:\TestFolter2\WhatsApp_files\pp(12) -> \\192.168.21.2\LimsData\WhatsApp_files\pp(12)
+Friday, June 5, 2020-3:08:16 PM =>  Copy. E:\TestFolter2\WhatsApp_files\pp(2) -> \\192.168.21.2\LimsData\WhatsApp_files\pp(2)
+Friday, June 5, 2020-3:08:16 PM =>  Copy. E:\TestFolter2\WhatsApp_files\pp(3) -> \\192.168.21.2\LimsData\WhatsApp_files\pp(3)
+Friday, June 5, 2020-3:08:16 PM =>  Copy. E:\TestFolter2\WhatsApp_files\pp(4) -> \\192.168.21.2\LimsData\WhatsApp_files\pp(4)
+Friday, June 5, 2020-3:08:16 PM =>  Copy. E:\TestFolter2\WhatsApp_files\pp(5) -> \\192.168.21.2\LimsData\WhatsApp_files\pp(5)
+Friday, June 5, 2020-3:08:16 PM =>  Copy. E:\TestFolter2\WhatsApp_files\pp(6) -> \\192.168.21.2\LimsData\WhatsApp_files\pp(6)
+Friday, June 5, 2020-3:08:16 PM =>  Copy. E:\TestFolter2\WhatsApp_files\pp(7) -> \\192.168.21.2\LimsData\WhatsApp_files\pp(7)
+Friday, June 5, 2020-3:08:16 PM =>  Copy. E:\TestFolter2\WhatsApp_files\pp(8) -> \\192.168.21.2\LimsData\WhatsApp_files\pp(8)
+Friday, June 5, 2020-3:08:16 PM =>  Copy. E:\TestFolter2\WhatsApp_files\pp(9) -> \\192.168.21.2\LimsData\WhatsApp_files\pp(9)
+Friday, June 5, 2020-3:08:16 PM =>  Copy. E:\TestFolter2\WhatsApp_files\ru.5cd79c531bb992782a21.js.download -> \\192.168.21.2\LimsData\WhatsApp_files\ru.5cd79c531bb992782a21.js.download
+Friday, June 5, 2020-3:08:17 PM =>  Copy. E:\TestFolter2\WhatsApp_files\ru.5f71edd0d0ce5de81a43.js.download -> \\192.168.21.2\LimsData\WhatsApp_files\ru.5f71edd0d0ce5de81a43.js.download
+Friday, June 5, 2020-3:08:17 PM =>  Copy. E:\TestFolter2\WhatsApp_files\svg.ed03391ee39e880b86d8.js.download -> \\192.168.21.2\LimsData\WhatsApp_files\svg.ed03391ee39e880b86d8.js.download
+Friday, June 5, 2020-3:08:17 PM =>  Copy. E:\TestFolter2\WhatsApp_files\vendor1_app.daac0351f5fff9acde2e.js.download -> \\192.168.21.2\LimsData\WhatsApp_files\vendor1_app.daac0351f5fff9acde2e.js.download
+Friday, June 5, 2020-3:08:17 PM =>  Copy. E:\TestFolter2\WhatsApp_files\vendors_app2.e42fcc176e37c32c3d25.js.download -> \\192.168.21.2\LimsData\WhatsApp_files\vendors_app2.e42fcc176e37c32c3d25.js.download
+Friday, June 5, 2020-3:08:17 PM =>  Copy. E:\TestFolter2\WhatsApp_files\vendors_lazy_loaded_low_priority_components.313363520547c18bdc2e.js.download -> \\192.168.21.2\LimsData\WhatsApp_files\vendors_lazy_loaded_low_priority_components.313363520547c18bdc2e.js.download
+Friday, June 5, 2020-3:08:39 PM =>  Copy. E:\TestFolter1\19L015-R19L041.zip -> \\192.168.21.2\BackUps\19L015-R19L041.zip
+Friday, June 5, 2020-3:08:39 PM =>  Copy. E:\TestFolter1\19L171.csv -> \\192.168.21.2\BackUps\19L171.csv
+Friday, June 5, 2020-3:08:40 PM =>  Copy. E:\TestFolter1\20A420.csv -> \\192.168.21.2\BackUps\20A420.csv
+Friday, June 5, 2020-3:08:40 PM =>  Copy. E:\TestFolter1\20B106.csv -> \\192.168.21.2\BackUps\20B106.csv
+Friday, June 5, 2020-3:08:41 PM =>  Copy. E:\TestFolter1\20B133.csv -> \\192.168.21.2\BackUps\20B133.csv
+Friday, June 5, 2020-3:08:41 PM =>  Copy. E:\TestFolter1\download.jpg -> \\192.168.21.2\BackUps\download.jpg
+Friday, June 5, 2020-3:08:43 PM =>  Copy. E:\TestFolter1\NIC_DRVR_WIN_R245561.EXE -> \\192.168.21.2\BackUps\NIC_DRVR_WIN_R245561.EXE
+Friday, June 5, 2020-3:09:03 PM =>  Copy. E:\TestFolter1\Packet_Tracer_7.2_for_Windows_64_bit.zip -> \\192.168.21.2\BackUps\Packet_Tracer_7.2_for_Windows_64_bit.zip
+Friday, June 5, 2020-3:09:03 PM =>  Copy. E:\TestFolter1\R19L031 (1).csv -> \\192.168.21.2\BackUps\R19L031 (1).csv
+Friday, June 5, 2020-3:09:03 PM =>  Copy. E:\TestFolter1\R19L031.csv -> \\192.168.21.2\BackUps\R19L031.csv
+Friday, June 5, 2020-3:09:04 PM =>  Copy. E:\TestFolter1\Setup Project64 v2.3.2-202-g57a221e.exe -> \\192.168.21.2\BackUps\Setup Project64 v2.3.2-202-g57a221e.exe
+Friday, June 5, 2020-3:09:04 PM =>  Copy. E:\TestFolter1\shop_price.xls -> \\192.168.21.2\BackUps\shop_price.xls
+Friday, June 5, 2020-3:09:05 PM =>  Copy. E:\TestFolter1\T19L004.csv -> \\192.168.21.2\BackUps\T19L004.csv
+Friday, June 5, 2020-3:09:06 PM =>  Copy. E:\TestFolter1\WhatsApp Video 2020-04-06 at 20.01.54.mp4 -> \\192.168.21.2\BackUps\WhatsApp Video 2020-04-06 at 20.01.54.mp4
+Friday, June 5, 2020-3:09:07 PM =>  Copy. E:\TestFolter1\WhatsApp.html -> \\192.168.21.2\BackUps\WhatsApp.html
+Friday, June 5, 2020-3:09:09 PM =>  Copy. E:\TestFolter1\xrf-software_superq6_user-documents_superq-6.3-reference-manualce-manuals_rfm_superq63-pw2450_en.pdf -> \\192.168.21.2\BackUps\xrf-software_superq6_user-documents_superq-6.3-reference-manualce-manuals_rfm_superq63-pw2450_en.pdf
+Friday, June 5, 2020-3:09:09 PM =>  Copy. E:\TestFolter1\РЕЕСТР_ОТ_11.11.2019 (1).xlsx -> \\192.168.21.2\BackUps\РЕЕСТР_ОТ_11.11.2019 (1).xlsx
+Friday, June 5, 2020-3:09:09 PM =>  Copy. E:\TestFolter1\РЕЕСТР_ОТ_11.11.2019.pdf -> \\192.168.21.2\BackUps\РЕЕСТР_ОТ_11.11.2019.pdf
+Friday, June 5, 2020-3:09:09 PM =>  Copy. E:\TestFolter1\РЕЕСТР_ОТ_11.11.2019.xlsx -> \\192.168.21.2\BackUps\РЕЕСТР_ОТ_11.11.2019.xlsx
+Friday, June 5, 2020-3:09:10 PM =>  Copy. E:\TestFolter1\Убакыт баалуу жаштар! (1).wav -> \\192.168.21.2\BackUps\Убакыт баалуу жаштар! (1).wav
+Friday, June 5, 2020-3:09:10 PM =>  Copy. E:\TestFolter1\ЭТАПЫ открытия объектов.docx.docx.pdf.pdf -> \\192.168.21.2\BackUps\ЭТАПЫ открытия объектов.docx.docx.pdf.pdf
+Friday, June 5, 2020-3:09:11 PM =>  Copy. E:\TestFolter1\WhatsApp_files\app.e523a591420798a2d899.js.download -> \\192.168.21.2\BackUps\WhatsApp_files\app.e523a591420798a2d899.js.download
+Friday, June 5, 2020-3:09:14 PM =>  Copy. E:\TestFolter1\WhatsApp_files\app2.a59ed697f92a7f70d888.js.download -> \\192.168.21.2\BackUps\WhatsApp_files\app2.a59ed697f92a7f70d888.js.download
+Friday, June 5, 2020-3:09:14 PM =>  Copy. E:\TestFolter1\WhatsApp_files\cssm_app.a116332e0d5be427a1b26c8b7f797e9c.css -> \\192.168.21.2\BackUps\WhatsApp_files\cssm_app.a116332e0d5be427a1b26c8b7f797e9c.css
+Friday, June 5, 2020-3:09:14 PM =>  Copy. E:\TestFolter1\WhatsApp_files\cssm_qr.aaaeb53b634fe8e38785616dc5cb39ea.css -> \\192.168.21.2\BackUps\WhatsApp_files\cssm_qr.aaaeb53b634fe8e38785616dc5cb39ea.css
+Friday, June 5, 2020-3:09:14 PM =>  Copy. E:\TestFolter1\WhatsApp_files\en.8e388be0378c483dfc1f.js.download -> \\192.168.21.2\BackUps\WhatsApp_files\en.8e388be0378c483dfc1f.js.download
+Friday, June 5, 2020-3:09:14 PM =>  Copy. E:\TestFolter1\WhatsApp_files\lazy_loaded_high_priority_components.7baa2667a5e2b0a7dedc.js.download -> \\192.168.21.2\BackUps\WhatsApp_files\lazy_loaded_high_priority_components.7baa2667a5e2b0a7dedc.js.download
+Friday, June 5, 2020-3:09:14 PM =>  Copy. E:\TestFolter1\WhatsApp_files\lazy_loaded_high_priority_components_lazy_loaded_low_priority_components.e4d0ef61103c8dcbaa46.js.download -> \\192.168.21.2\BackUps\WhatsApp_files\lazy_loaded_high_priority_components_lazy_loaded_low_priority_components.e4d0ef61103c8dcbaa46.js.download
+Friday, June 5, 2020-3:09:15 PM =>  Copy. E:\TestFolter1\WhatsApp_files\lazy_loaded_low_priority_components.5bf9d655f354566e78ad.js.download -> \\192.168.21.2\BackUps\WhatsApp_files\lazy_loaded_low_priority_components.5bf9d655f354566e78ad.js.download
+Friday, June 5, 2020-3:09:15 PM =>  Copy. E:\TestFolter1\WhatsApp_files\pp -> \\192.168.21.2\BackUps\WhatsApp_files\pp
+Friday, June 5, 2020-3:09:15 PM =>  Copy. E:\TestFolter1\WhatsApp_files\pp(1) -> \\192.168.21.2\BackUps\WhatsApp_files\pp(1)
+Friday, June 5, 2020-3:09:15 PM =>  Copy. E:\TestFolter1\WhatsApp_files\pp(10) -> \\192.168.21.2\BackUps\WhatsApp_files\pp(10)
+Friday, June 5, 2020-3:09:15 PM =>  Copy. E:\TestFolter1\WhatsApp_files\pp(11) -> \\192.168.21.2\BackUps\WhatsApp_files\pp(11)
+Friday, June 5, 2020-3:09:15 PM =>  Copy. E:\TestFolter1\WhatsApp_files\pp(12) -> \\192.168.21.2\BackUps\WhatsApp_files\pp(12)
+Friday, June 5, 2020-3:09:15 PM =>  Copy. E:\TestFolter1\WhatsApp_files\pp(2) -> \\192.168.21.2\BackUps\WhatsApp_files\pp(2)
+Friday, June 5, 2020-3:09:15 PM =>  Copy. E:\TestFolter1\WhatsApp_files\pp(3) -> \\192.168.21.2\BackUps\WhatsApp_files\pp(3)
+Friday, June 5, 2020-3:09:15 PM =>  Copy. E:\TestFolter1\WhatsApp_files\pp(4) -> \\192.168.21.2\BackUps\WhatsApp_files\pp(4)
+Friday, June 5, 2020-3:09:15 PM =>  Copy. E:\TestFolter1\WhatsApp_files\pp(5) -> \\192.168.21.2\BackUps\WhatsApp_files\pp(5)
+Friday, June 5, 2020-3:09:15 PM =>  Copy. E:\TestFolter1\WhatsApp_files\pp(6) -> \\192.168.21.2\BackUps\WhatsApp_files\pp(6)
+Friday, June 5, 2020-3:09:15 PM =>  Copy. E:\TestFolter1\WhatsApp_files\pp(7) -> \\192.168.21.2\BackUps\WhatsApp_files\pp(7)
+Friday, June 5, 2020-3:09:15 PM =>  Copy. E:\TestFolter1\WhatsApp_files\pp(8) -> \\192.168.21.2\BackUps\WhatsApp_files\pp(8)
+Friday, June 5, 2020-3:09:15 PM =>  Copy. E:\TestFolter1\WhatsApp_files\pp(9) -> \\192.168.21.2\BackUps\WhatsApp_files\pp(9)
+Friday, June 5, 2020-3:09:15 PM =>  Copy. E:\TestFolter1\WhatsApp_files\ru.5cd79c531bb992782a21.js.download -> \\192.168.21.2\BackUps\WhatsApp_files\ru.5cd79c531bb992782a21.js.download
+Friday, June 5, 2020-3:09:15 PM =>  Copy. E:\TestFolter1\WhatsApp_files\ru.5f71edd0d0ce5de81a43.js.download -> \\192.168.21.2\BackUps\WhatsApp_files\ru.5f71edd0d0ce5de81a43.js.download
+Friday, June 5, 2020-3:09:15 PM =>  Copy. E:\TestFolter1\WhatsApp_files\svg.ed03391ee39e880b86d8.js.download -> \\192.168.21.2\BackUps\WhatsApp_files\svg.ed03391ee39e880b86d8.js.download
+Friday, June 5, 2020-3:09:16 PM =>  Copy. E:\TestFolter1\WhatsApp_files\vendor1_app.daac0351f5fff9acde2e.js.download -> \\192.168.21.2\BackUps\WhatsApp_files\vendor1_app.daac0351f5fff9acde2e.js.download
+Friday, June 5, 2020-3:09:16 PM =>  Copy. E:\TestFolter1\WhatsApp_files\vendors_app2.e42fcc176e37c32c3d25.js.download -> \\192.168.21.2\BackUps\WhatsApp_files\vendors_app2.e42fcc176e37c32c3d25.js.download
+Friday, June 5, 2020-3:09:16 PM =>  Copy. E:\TestFolter1\WhatsApp_files\vendors_lazy_loaded_low_priority_components.313363520547c18bdc2e.js.download -> \\192.168.21.2\BackUps\WhatsApp_files\vendors_lazy_loaded_low_priority_components.313363520547c18bdc2e.js.download
+Friday, June 5, 2020-3:27:39 PM =>  Synchronizer started
+Friday, June 5, 2020-3:27:39 PM =>  Task for E:\TestFolter1 created
+Friday, June 5, 2020-3:27:39 PM =>  Task for E:\TestFolter2 created
+Friday, June 5, 2020-3:27:41 PM =>  Synchronizer stoped
+Friday, June 5, 2020-3:36:40 PM =>  Synchronizer started
+Friday, June 5, 2020-3:36:40 PM =>  Task for E:\TestFolter1 created
+Friday, June 5, 2020-3:36:40 PM =>  Task for E:\TestFolter2 created
+Friday, June 5, 2020-3:36:42 PM =>  Synchronizer stoped
+Friday, June 5, 2020-3:49:23 PM =>  Synchronizer started
+Friday, June 5, 2020-3:49:23 PM =>  Task for E:\TestFolter1 created
+Friday, June 5, 2020-3:49:23 PM =>  Task for E:\TestFolter2 created
+Friday, June 5, 2020-3:49:26 PM =>  Synchronizer stoped

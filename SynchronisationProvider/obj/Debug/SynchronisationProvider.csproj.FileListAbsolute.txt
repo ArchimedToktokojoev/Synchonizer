@@ -1,0 +1,10 @@
+E:\Gems\synchronizer\synchronizer\SybchronisationProvider\bin\Debug\SybchronisationProvider.dll
+E:\Gems\synchronizer\synchronizer\SybchronisationProvider\bin\Debug\SybchronisationProvider.pdb
+E:\Gems\synchronizer\synchronizer\SybchronisationProvider\obj\Debug\SynchronisationProvider.csprojAssemblyReference.cache
+E:\Gems\synchronizer\synchronizer\SybchronisationProvider\obj\Debug\SybchronisationProvider.dll
+E:\Gems\synchronizer\synchronizer\SybchronisationProvider\obj\Debug\SybchronisationProvider.pdb
+E:\Gems\Synchronizer\SynchronisationProvider\bin\Debug\SybchronisationProvider.dll
+E:\Gems\Synchronizer\SynchronisationProvider\bin\Debug\SybchronisationProvider.pdb
+E:\Gems\Synchronizer\SynchronisationProvider\obj\Debug\SybchronisationProvider.dll
+E:\Gems\Synchronizer\SynchronisationProvider\obj\Debug\SybchronisationProvider.pdb
+E:\Gems\Synchronizer\SynchronisationProvider\obj\Debug\SynchronisationProvider.csprojAssemblyReference.cache

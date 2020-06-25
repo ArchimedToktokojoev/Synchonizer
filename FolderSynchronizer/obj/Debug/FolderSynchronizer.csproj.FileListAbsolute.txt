@@ -1,0 +1,11 @@
+E:\Gems\Synchronizer\FolderSynchronizer\bin\Debug\FolderSynchronizer.exe.config
+E:\Gems\Synchronizer\FolderSynchronizer\bin\Debug\FolderSynchronizer.exe
+E:\Gems\Synchronizer\FolderSynchronizer\bin\Debug\FolderSynchronizer.pdb
+E:\Gems\Synchronizer\FolderSynchronizer\bin\Debug\SybchronisationProvider.dll
+E:\Gems\Synchronizer\FolderSynchronizer\bin\Debug\SybchronisationProvider.pdb
+E:\Gems\Synchronizer\FolderSynchronizer\obj\Debug\FolderSynchronizer.csproj.CopyComplete
+E:\Gems\Synchronizer\FolderSynchronizer\obj\Debug\FolderSynchronizer.exe
+E:\Gems\Synchronizer\FolderSynchronizer\obj\Debug\FolderSynchronizer.pdb
+E:\Gems\Synchronizer\FolderSynchronizer\obj\Debug\FolderSynchronizer.csprojAssemblyReference.cache
+E:\Gems\Synchronizer\FolderSynchronizer\obj\Debug\FolderSynchronizer.ProjectInstaller.resources
+E:\Gems\Synchronizer\FolderSynchronizer\obj\Debug\FolderSynchronizer.csproj.GenerateResource.cache
