@@ -1,0 +1,17 @@
+Thursday, June 25, 2020-11:41:20 AM =>  Synchronizer started
+Thursday, June 25, 2020-11:41:20 AM =>  Task for E:\TestFolter1 created
+Thursday, June 25, 2020-11:41:20 AM =>  Task for E:\TestFolter2 created
+Thursday, June 25, 2020-11:41:20 AM =>  Task for E:\VMWare created
+Thursday, June 25, 2020-11:41:25 AM =>  Ошибка - The device is not ready.
+ Module=ScanUrl Module=Synchronization
+Thursday, June 25, 2020-11:41:25 AM =>  Ошибка - The device is not ready.
+ Module=ScanUrl Module=Synchronization
+Thursday, June 25, 2020-11:41:25 AM =>  Ошибка - The device is not ready.
+ Module=ScanUrl Module=Synchronization
+Thursday, June 25, 2020-11:41:30 AM =>  Ошибка - The device is not ready.
+ Module=ScanUrl Module=Synchronization
+Thursday, June 25, 2020-11:41:30 AM =>  Ошибка - The device is not ready.
+ Module=ScanUrl Module=Synchronization
+Thursday, June 25, 2020-11:41:30 AM =>  Ошибка - The device is not ready.
+ Module=ScanUrl Module=Synchronization
+Thursday, June 25, 2020-11:41:33 AM =>  Synchronizer stoped

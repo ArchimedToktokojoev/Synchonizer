@@ -12,6 +12,7 @@ namespace SynchronisationProvider
     {
         public string Ip = "";
         public string Port = "";
+        public string ManifestFileName = "MANIFEST.SYN";
         private ShowLog _showLog;
         public string _sourceUrl;
         public string _targetUrl;
@@ -112,7 +113,7 @@ namespace SynchronisationProvider
             var delta = new List<DeltaInfo>();
             try
             {
-                var manifestList = ManifestToList(url + "\\MANIFEST.SCA");
+                var manifestList = ManifestToList(url + $"\\{ManifestFileName}");
                 var scanList = ScanDataToList(scanDatas);
                 foreach (var manData in manifestList)
                     if (!scanList.Any(a => a.Name == manData.Name)) delta.Add(new DeltaInfo { Name = manData.Name, Type = DeltaType.Delete });
@@ -203,8 +204,8 @@ namespace SynchronisationProvider
         
         public void SaveAsManifiest(string url, string[] scanDatas)
         {
-            if (File.Exists(url + "\\MANIFEST.SCA")) File.Delete(url + "\\MANIFEST.SCA");
-            File.AppendAllLines(url + "\\MANIFEST.SCA", scanDatas);
+            if (File.Exists(url + $"\\{ManifestFileName}")) File.Delete(url + $"\\{ManifestFileName}");
+            File.AppendAllLines(url + $"\\{ManifestFileName}", scanDatas);
         }
         private string[] ScanUrl(string url)
         {
@@ -215,7 +216,7 @@ namespace SynchronisationProvider
             {
                 var files = GetFilesByUrl(url);
                 foreach (var fileName in files)
-                    if (fileName.ToUpper() != "MANIFEST.SCA")
+                    if (fileName.ToUpper() != ManifestFileName)
                     {
                         var fi = new FileInfo(cDir + fileName);
                         var cVersion = "";

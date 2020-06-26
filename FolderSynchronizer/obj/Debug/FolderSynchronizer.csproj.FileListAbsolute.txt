@@ -9,3 +9,15 @@ E:\Gems\Synchronizer\FolderSynchronizer\obj\Debug\FolderSynchronizer.pdb
 E:\Gems\Synchronizer\FolderSynchronizer\obj\Debug\FolderSynchronizer.csprojAssemblyReference.cache
 E:\Gems\Synchronizer\FolderSynchronizer\obj\Debug\FolderSynchronizer.ProjectInstaller.resources
 E:\Gems\Synchronizer\FolderSynchronizer\obj\Debug\FolderSynchronizer.csproj.GenerateResource.cache
+D:\Work\Synchonizer\FolderSynchronizer\bin\Debug\FolderSynchronizer.exe.config
+D:\Work\Synchonizer\FolderSynchronizer\bin\Debug\FolderSynchronizer.exe
+D:\Work\Synchonizer\FolderSynchronizer\bin\Debug\FolderSynchronizer.pdb
+D:\Work\Synchonizer\FolderSynchronizer\bin\Debug\SybchronisationProvider.dll
+D:\Work\Synchonizer\FolderSynchronizer\bin\Debug\SybchronisationProvider.pdb
+D:\Work\Synchonizer\FolderSynchronizer\obj\Debug\FolderSynchronizer.csprojAssemblyReference.cache
+D:\Work\Synchonizer\FolderSynchronizer\obj\Debug\FolderSynchronizer.ProjectInstaller.resources
+D:\Work\Synchonizer\FolderSynchronizer\obj\Debug\FolderSynchronizer.csproj.GenerateResource.cache
+D:\Work\Synchonizer\FolderSynchronizer\obj\Debug\FolderSynchronizer.csproj.CoreCompileInputs.cache
+D:\Work\Synchonizer\FolderSynchronizer\obj\Debug\FolderSynchronizer.csproj.CopyComplete
+D:\Work\Synchonizer\FolderSynchronizer\obj\Debug\FolderSynchronizer.exe
+D:\Work\Synchonizer\FolderSynchronizer\obj\Debug\FolderSynchronizer.pdb

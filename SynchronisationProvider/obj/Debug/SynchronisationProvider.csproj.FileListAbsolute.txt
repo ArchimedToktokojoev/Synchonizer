@@ -8,3 +8,8 @@ E:\Gems\Synchronizer\SynchronisationProvider\bin\Debug\SybchronisationProvider.p
 E:\Gems\Synchronizer\SynchronisationProvider\obj\Debug\SybchronisationProvider.dll
 E:\Gems\Synchronizer\SynchronisationProvider\obj\Debug\SybchronisationProvider.pdb
 E:\Gems\Synchronizer\SynchronisationProvider\obj\Debug\SynchronisationProvider.csprojAssemblyReference.cache
+D:\Work\Synchonizer\SynchronisationProvider\bin\Debug\SybchronisationProvider.dll
+D:\Work\Synchonizer\SynchronisationProvider\bin\Debug\SybchronisationProvider.pdb
+D:\Work\Synchonizer\SynchronisationProvider\obj\Debug\SynchronisationProvider.csproj.CoreCompileInputs.cache
+D:\Work\Synchonizer\SynchronisationProvider\obj\Debug\SybchronisationProvider.dll
+D:\Work\Synchonizer\SynchronisationProvider\obj\Debug\SybchronisationProvider.pdb
