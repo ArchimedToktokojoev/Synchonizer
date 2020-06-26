@@ -13,3 +13,8 @@ D:\Work\Synchonizer\SynchronisationProvider\bin\Debug\SybchronisationProvider.pd
 D:\Work\Synchonizer\SynchronisationProvider\obj\Debug\SynchronisationProvider.csproj.CoreCompileInputs.cache
 D:\Work\Synchonizer\SynchronisationProvider\obj\Debug\SybchronisationProvider.dll
 D:\Work\Synchonizer\SynchronisationProvider\obj\Debug\SybchronisationProvider.pdb
+E:\Gems\Synchonizer\SynchronisationProvider\bin\Debug\SybchronisationProvider.dll
+E:\Gems\Synchonizer\SynchronisationProvider\bin\Debug\SybchronisationProvider.pdb
+E:\Gems\Synchonizer\SynchronisationProvider\obj\Debug\SybchronisationProvider.dll
+E:\Gems\Synchonizer\SynchronisationProvider\obj\Debug\SybchronisationProvider.pdb
+E:\Gems\Synchonizer\SynchronisationProvider\obj\Debug\SynchronisationProvider.csprojAssemblyReference.cache

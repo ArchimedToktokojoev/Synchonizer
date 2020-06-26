@@ -5,10 +5,150 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.InteropServices;
 using System.IO;
+using System.Configuration;
+using System.Timers;
 
 namespace SynchronisationProvider
 {
     public class Provider
+    {
+
+        public List<FolderInfo> _folderInfos = new List<FolderInfo>();
+        static string logFile;
+        public Provider(string moduleName)
+        {
+            string path = AppDomain.CurrentDomain.BaseDirectory + "\\Logs";
+            if (!Directory.Exists(path)) Directory.CreateDirectory(path);
+            logFile = AppDomain.CurrentDomain.BaseDirectory + "\\Logs\\ServiceLog_" + DateTime.Now.Date.ToShortDateString().Replace('/', '_') + ".txt";
+            if (!File.Exists(logFile))
+                using (StreamWriter sw = File.CreateText(logFile))
+            SaveToLog("Synchronizer started");
+            GetFolderInfos(moduleName);
+            CreateTasks();
+        }
+        public void Start()
+        {
+            for (int i = 0; i < _folderInfos.Count(); i++)
+            {
+                _folderInfos[i].timer.Start();
+                SaveToLog("Task for " + _folderInfos[i].LocalPath + " started");
+            }
+        }
+        public void Stop()
+        {
+            for (int i = 0; i < _folderInfos.Count(); i++)
+                _folderInfos[i].timer.Stop();
+            SaveToLog("Synchronizer stoped");
+        }
+        private void SaveToLog(string msg)
+        {
+            msg = DateTime.Now.ToLongDateString() + "-" + DateTime.Now.ToLongTimeString() + " =>  " + msg;
+            SaveMsgLog(logFile, msg);
+        }
+        private void SaveMsgLog(string file, string msg)
+        {
+            int i = 0;
+            while (i < 10)
+            {
+                try
+                {
+                    using (StreamWriter sw = File.AppendText(file))
+                        sw.WriteLine(msg);
+                    break;
+                }
+                catch (Exception)
+                {
+                    i++;
+                }
+            }
+        }
+        
+        private void CreateTasks()
+        {
+            for (int i = 0; i < _folderInfos.Count(); i++)
+            {
+                _folderInfos[i].timer = new Timer();
+                _folderInfos[i].timer.Interval = _folderInfos[i].Interval + i;
+                _folderInfos[i].isLock = false;
+                _folderInfos[i].timer.Elapsed += new ElapsedEventHandler(OnElapsedTime);
+                _folderInfos[i].timer.Start();
+                _folderInfos[i].FP = new FolderProvider();
+                _folderInfos[i].FP.SetShowLog(SaveToLog);
+                SaveToLog("Task for " + _folderInfos[i].LocalPath + " created");
+            }
+        }
+        private void OnElapsedTime(object source, ElapsedEventArgs e)
+        {
+            var t = (Timer)source;
+            int i1000 = (int)(t.Interval / 1000);
+            int i = (int)t.Interval - i1000 * 1000;
+            DoSynchro(i);
+
+        }
+        private void DoSynchro(int idx)
+        {
+            var folderInfo = _folderInfos[idx];
+            
+            if (!folderInfo.isLock)
+            {
+                folderInfo.isLock = true;
+                var targetUrl = @"\\" + folderInfo.Domain + @"\" + folderInfo.RemotePath;
+                try
+                {
+                    folderInfo.FP.SetTargetUserParams(folderInfo.Domain, folderInfo.DomainUser, folderInfo.Password);
+                    folderInfo.FP.Logon(targetUrl);
+                    folderInfo.FP.Synchronization(folderInfo.LocalPath, targetUrl);
+                    folderInfo.FP.Logout();
+                }
+                catch (Exception ex)
+                {
+                    SaveToLog("Ошибка - " + ex.Message);
+                }
+                folderInfo.isLock = false;
+            }
+        }
+
+        private void GetFolderInfos(string appl)
+        {
+            var configuration = ConfigurationManager.OpenExeConfiguration($"{AppDomain.CurrentDomain.BaseDirectory}" + appl);
+            if (configuration.HasFile)
+            {
+                int idx = 1;
+                string lp = "";
+                while (lp != null)
+                {
+                    lp = ConfigurationManager.AppSettings["LocalPath" + idx.ToString()];
+                    if (lp != null)
+                    {
+                        var nf = new FolderInfo() { LocalPath = lp };
+                        nf.RemotePath = ConfigurationManager.AppSettings["RemotePath" + idx.ToString()];
+                        nf.Domain = ConfigurationManager.AppSettings["Domain" + idx.ToString()];
+                        nf.DomainUser = ConfigurationManager.AppSettings["DomainUser" + idx.ToString()];
+                        nf.Password = ConfigurationManager.AppSettings["Password" + idx.ToString()];
+                        nf.Interval = Int32.Parse(ConfigurationManager.AppSettings["Interval" + idx.ToString()]);
+                        _folderInfos.Add(nf);
+                    }
+                    idx++;
+                }
+
+            }
+        }
+    }
+    public class FolderInfo
+    {
+        public string LocalPath;
+        public string RemotePath;
+        public string Domain;
+        public string DomainUser;
+        public string Password;
+        public int Interval;
+        public Timer timer;
+        public bool isLock;
+        public  FolderProvider FP;
+
+    }
+
+    public class FolderProvider
     {
         public string Ip = "";
         public string Port = "";
@@ -16,7 +156,6 @@ namespace SynchronisationProvider
         private ShowLog _showLog;
         public string _sourceUrl;
         public string _targetUrl;
-        public string _currentPath;
         private static char separator = '|';
         private WrapperImpersonationContext _targetContext;
         private readonly User _targetUser = new User();
@@ -72,6 +211,7 @@ namespace SynchronisationProvider
         }
         public void Synchronization(string sUrl, string tUrl)
         {
+            WriteToLog("Synchronization. SourceUrl=" + sUrl + "  TargetUrl=" + tUrl);
 
             try
             {
@@ -90,21 +230,28 @@ namespace SynchronisationProvider
 
         private void DoneDelta(IEnumerable<DeltaInfo> delta, string sourceUrl, string targetUrl)
         {
-            foreach (var fd in delta)
+            try
             {
-                if (File.Exists(targetUrl + "\\" + fd.Name)) File.Delete(targetUrl + "\\" + fd.Name);
-                if (fd.Type == DeltaType.Delete)
+                foreach (var fd in delta)
                 {
                     if (File.Exists(targetUrl + "\\" + fd.Name)) File.Delete(targetUrl + "\\" + fd.Name);
-                    WriteToLog("Delete. " + targetUrl + "\\" + fd.Name);
+                    if (fd.Type == DeltaType.Delete)
+                    {
+                        if (File.Exists(targetUrl + "\\" + fd.Name)) File.Delete(targetUrl + "\\" + fd.Name);
+                        WriteToLog("Delete. " + targetUrl + "\\" + fd.Name);
+                    }
+                    if (fd.Type == DeltaType.Add || fd.Type == DeltaType.Update)
+                    {
+                        var cDir = Path.GetDirectoryName(targetUrl + "\\" + fd.Name);
+                        if (cDir != "" && !Directory.Exists(cDir)) Directory.CreateDirectory(cDir);
+                        File.Copy(sourceUrl + "\\" + fd.Name, targetUrl + "\\" + fd.Name, true);
+                        WriteToLog("Copy. " + sourceUrl + "\\" + fd.Name + " -> " + targetUrl + "\\" + fd.Name);
+                    }
                 }
-                if (fd.Type == DeltaType.Add || fd.Type == DeltaType.Update)
-                {
-                    var cDir = Path.GetDirectoryName(targetUrl + "\\" + fd.Name);
-                    if (cDir != "" && !Directory.Exists(cDir)) Directory.CreateDirectory(cDir);
-                    File.Copy(sourceUrl + "\\" + fd.Name, targetUrl + "\\" + fd.Name, true);
-                    WriteToLog("Copy. " + sourceUrl + "\\" + fd.Name + " -> " + targetUrl + "\\" + fd.Name);
-                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message + " Module=DoneDelta");
             }
         }
 
@@ -180,36 +327,40 @@ namespace SynchronisationProvider
                                     s.Substring(0, 10) != "ServiceUrl")
             {
                 string a = s;
-                var i = a.IndexOf(separator);
-                var name = a.Substring(0, i);
-                a = a.Substring(i + 1);
-                i = a.IndexOf(separator);
-                var size = a.Substring(0, i);
-                a = a.Substring(i + 1);
-                i = a.IndexOf(separator);
-                var version = a.Substring(0, i);
-                var dateCreate = a.Substring(i + 1);
                 try
                 {
+                    var i = a.IndexOf(separator);
+                    var name = a.Substring(0, i);
+                    a = a.Substring(i + 1);
+                    i = a.IndexOf(separator);
+                    var size = a.Substring(0, i);
+                    a = a.Substring(i + 1);
+                    i = a.IndexOf(separator);
+                    var version = a.Substring(0, i);
+                    var dateCreate = a.Substring(i + 1);
                     ret = new ManifestFileInfo { Name = name, Size = Convert.ToInt32(size), Version = version, DateCreate = dateCreate };
                 }
                 catch (Exception e)
                 {
-                    throw new Exception(e.Message+ " Module=ToManifestFileInfo");
+                    throw new Exception(e.Message + " Module=ToManifestFileInfo");
                 }
             }
             return ret;
         }
-
-        
         public void SaveAsManifiest(string url, string[] scanDatas)
         {
-            if (File.Exists(url + $"\\{ManifestFileName}")) File.Delete(url + $"\\{ManifestFileName}");
-            File.AppendAllLines(url + $"\\{ManifestFileName}", scanDatas);
+            try
+            {
+                if (File.Exists(url + $"\\{ManifestFileName}")) File.Delete(url + $"\\{ManifestFileName}");
+                File.AppendAllLines(url + $"\\{ManifestFileName}", scanDatas);
+            }
+            catch (Exception e)
+            {
+                throw new Exception(e.Message + " Module=SaveAsManifiest");
+            }
         }
         private string[] ScanUrl(string url)
         {
-
             var fileList = new List<string>();
             var cDir = url != "" ? url + "\\" : "";
             try
@@ -282,9 +433,6 @@ namespace SynchronisationProvider
             public int Size;
             public string DateCreate;
         }
-    
-
-
     }
     public class DeltaInfo
     {
@@ -387,6 +535,5 @@ namespace SynchronisationProvider
                 _context.Dispose();
         }
     }
-
-
+   
 }
